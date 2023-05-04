@@ -10,6 +10,11 @@ namespace SIS
 			Console.WriteLine("[1] - Profile");
 			Console.WriteLine("[2] - Log Out\n");
 		}
+
+		public void userInput()
+		{
+            Console.Write(">> input:");
+        }
 	}
 }
 
